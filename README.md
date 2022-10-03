@@ -1,4 +1,4 @@
-サーモンランブキコレクション
+サーモンランブキコレクション(NW版)
 ====
 
 サーモンランのランダム回で引いたブキを数えたい人用のツール。
@@ -15,11 +15,11 @@
 ## 閲覧
 
 以下のURLから閲覧できます。  
-[https://gungeespla.github.io/collection_of_weapons/](https://gungeespla.github.io/collection_of_weapons/)
+[https://takenocotoon.github.io/collection_of_weapons_nw/](https://takenocotoon.github.io/collection_of_weapons_nw/)
 
 ## ライセンス
 
-[MIT](https://github.com/GungeeSpla/collection_of_weapons/blob/master/LICENSE)
+[MIT](https://github.com/takenocotoon/collection_of_weapons_nw/blob/main/LICENSE)
 
 ## 作者
 
