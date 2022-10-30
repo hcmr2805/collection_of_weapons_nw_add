@@ -108,10 +108,10 @@
 		10000: { ja: 'ドライブワイパー', en: 'Splatana Wiper', type: 'wiper' },
 		10010: { ja: 'ジムワイパー', en: 'Splatana Stamper', type: 'wiper' },
 
-		// 20000: { ja: 'クマサン印のブラスター', en: 'Grizzco Blaster', type: 'grizzco' },
-		// 20010: { ja: 'クマサン印のシェルター', en: 'Grizzco Brella', type: 'grizzco' },
-		// 20020: { ja: 'クマサン印のチャージャー', en: 'Grizzco Charger', type: 'grizzco' },
-		// 20030: { ja: 'クマサン印のスロッシャー', en: 'Grizzco Slosher', type: 'grizzco' },
+		20000: { ja: 'クマサン印のブラスター', en: 'Grizzco Blaster', type: 'grizzco' },
+		20010: { ja: 'クマサン印のシェルター', en: 'Grizzco Brella', type: 'grizzco' },
+		20020: { ja: 'クマサン印のチャージャー', en: 'Grizzco Charger', type: 'grizzco' },
+		20030: { ja: 'クマサン印のスロッシャー', en: 'Grizzco Slosher', type: 'grizzco' },
 		20040: { ja: 'クマサン印のストリンガー', en: 'Grizzco Stringer', type: 'grizzco' }
 };
 
@@ -173,7 +173,12 @@
 		const jsonStr = localStorage.getItem(storageKey);
 		if (jsonStr !== null) {
 			const saveDataObj = JSON.parse(jsonStr);
-			if ('counts' in saveDataObj) counts = saveDataObj.counts;
+			if ('counts' in saveDataObj) {
+				counts = saveDataObj.counts;
+				weaponIds.forEach((id) => {
+					if (!(id in counts)) counts[id] = 0;
+				});
+			}
 			if ('undoStack' in saveDataObj) undoStack = saveDataObj.undoStack;
 			if ('countStack' in saveDataObj) countStack = saveDataObj.countStack;
 			if ('isComplete' in saveDataObj) isComplete = saveDataObj.isComplete;
