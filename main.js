@@ -45,74 +45,74 @@
 
 	/** ブキデータ */
 	const weapons = {
-		0: { ja: 'わかばシューター', en: 'Splattershot Jr.', type: 'shooter' },
-		10: { ja: 'スプラシューター', en: 'Splattershot Jr.', type: 'shooter' },
-		20: { ja: 'ボールドマーカー', en: 'Sploosh-o-matic', type: 'shooter' },
-		30: { ja: 'シャープマーカー', en: 'Splash-o-matic', type: 'shooter' },
-		40: { ja: 'プロモデラーMG', en: 'Aerospray MG', type: 'shooter' },
-		50: { ja: 'N-ZAP85', en: "N-ZAP '85", type: 'shooter' },
-		60: { ja: '.52ガロン', en: '.52 Gal', type: 'shooter' },
-		70: { ja: '.96ガロン', en: '.96 Gal', type: 'shooter' },
-		80: { ja: 'プライムシューター', en: 'Splattershot Pro', type: 'shooter' },
-		90: { ja: 'ジェットスイーパー', en: 'Jet Squelcher', type: 'shooter' },
-		100: { ja: 'L3リールガン', en: 'L-3 Nozzlenose', type: 'shooter' },
-		110: { ja: 'H3リールガン', en: 'H-3 Nozzlenose', type: 'shooter' },
-		120: { ja: 'ボトルガイザー', en: 'Squeezer', type: 'shooter' },
+		0: { ja: 'わかばシューター', en: 'Splattershot Jr.', type: 'shooter', bottom: 39 },
+		10: { ja: 'スプラシューター', en: 'Splattershot Jr.', type: 'shooter', bottom: 32 },
+		20: { ja: 'ボールドマーカー', en: 'Sploosh-o-matic', type: 'shooter', bottom: 45 },
+		30: { ja: 'シャープマーカー', en: 'Splash-o-matic', type: 'shooter', bottom: 39 },
+		40: { ja: 'プロモデラーMG', en: 'Aerospray MG', type: 'shooter', bottom: 24 },
+		50: { ja: 'N-ZAP85', en: "N-ZAP '85", type: 'shooter', bottom: 51 },
+		60: { ja: '.52ガロン', en: '.52 Gal', type: 'shooter', bottom: 33 },
+		70: { ja: '.96ガロン', en: '.96 Gal', type: 'shooter', bottom: 50 },
+		80: { ja: 'プライムシューター', en: 'Splattershot Pro', type: 'shooter', bottom: 53 },
+		90: { ja: 'ジェットスイーパー', en: 'Jet Squelcher', type: 'shooter', bottom: 50 },
+		100: { ja: 'L3リールガン', en: 'L-3 Nozzlenose', type: 'shooter', bottom: 35 },
+		110: { ja: 'H3リールガン', en: 'H-3 Nozzlenose', type: 'shooter', bottom: 42 },
+		120: { ja: 'ボトルガイザー', en: 'Squeezer', type: 'shooter', bottom: 41 },
 
-		1000: { ja: 'ノヴァブラスター', en: 'Luna Blaster', type: 'blaster' },
-		1010: { ja: 'ホットブラスター', en: 'Blaster', type: 'blaster' },
-		1020: { ja: 'ロングブラスター', en: 'Range Blaster', type: 'blaster' },
-		1030: { ja: 'クラッシュブラスター', en: 'Clash Blaster', type: 'blaster' },
-		1040: { ja: 'ラピッドブラスター', en: 'Rapid Blaster', type: 'blaster' },
-		1050: { ja: 'Rブラスターエリート', en: 'Rapid Blaster Pro', type: 'blaster' },
+		1000: { ja: 'ノヴァブラスター', en: 'Luna Blaster', type: 'blaster', bottom: 19 },
+		1010: { ja: 'ホットブラスター', en: 'Blaster', type: 'blaster', bottom: 46 },
+		1020: { ja: 'ロングブラスター', en: 'Range Blaster', type: 'blaster', bottom: 50 },
+		1030: { ja: 'クラッシュブラスター', en: 'Clash Blaster', type: 'blaster', bottom: 30 },
+		1040: { ja: 'ラピッドブラスター', en: 'Rapid Blaster', type: 'blaster', bottom: 32 },
+		1050: { ja: 'Rブラスターエリート', en: 'Rapid Blaster Pro', type: 'blaster', bottom: 42 },
 
-		2000: { ja: 'カーボンローラー', en: 'Carbon Roller', type: 'roller' },
-		2010: { ja: 'スプラローラー', en: 'Splat Roller', type: 'roller' },
-		2020: { ja: 'ヴァリアブルローラー', en: 'Flingza Roller', type: 'roller' },
-		2030: { ja: 'ダイナモローラー', en: 'Dynamo Roller', type: 'roller' },
+		2000: { ja: 'カーボンローラー', en: 'Carbon Roller', type: 'roller', bottom: 15 },
+		2010: { ja: 'スプラローラー', en: 'Splat Roller', type: 'roller', bottom: 19 },
+		2020: { ja: 'ヴァリアブルローラー', en: 'Flingza Roller', type: 'roller', bottom: 15 },
+		2030: { ja: 'ダイナモローラー', en: 'Dynamo Roller', type: 'roller', bottom: 4 },
 
-		3000: { ja: 'パブロ', en: 'Inkbrush', type: 'roller' },
-		3010: { ja: 'ホクサイ', en: 'Octobrush', type: 'roller' },
+		3000: { ja: 'パブロ', en: 'Inkbrush', type: 'roller', bottom: 4 },
+		3010: { ja: 'ホクサイ', en: 'Octobrush', type: 'roller', bottom: 2 },
 
-		4000: { ja: 'スクイックリンα', en: 'Classic Squiffer', type: 'charger' },
-		4010: { ja: 'スプラチャージャー', en: 'Splat Charger', type: 'charger' },
-		4030: { ja: 'リッター4K', en: 'E-liter 4K', type: 'charger' },
-		4050: { ja: 'ソイチューバー', en: 'Goo Tuber', type: 'charger' },
-		4060: { ja: '14式竹筒銃・甲', en: 'Bamboozler 14 Mk I', type: 'charger' },
+		4000: { ja: 'スクイックリンα', en: 'Classic Squiffer', type: 'charger', bottom: 58 },
+		4010: { ja: 'スプラチャージャー', en: 'Splat Charger', type: 'charger', bottom: 64 },
+		4030: { ja: 'リッター4K', en: 'E-liter 4K', type: 'charger', bottom: 65 },
+		4050: { ja: 'ソイチューバー', en: 'Goo Tuber', type: 'charger', bottom: 33 },
+		4060: { ja: '14式竹筒銃・甲', en: 'Bamboozler 14 Mk I', type: 'charger', bottom: 47 },
 
-		5000: { ja: 'バケットスロッシャー', en: 'Slosher', type: 'slosher' },
-		5010: { ja: 'ヒッセン', en: 'Tri-Slosher', type: 'slosher' },
-		5020: { ja: 'スクリュースロッシャー', en: 'Sloshing Machine', type: 'slosher' },
-		5030: { ja: 'オーバーフロッシャー', en: 'Bloblobber', type: 'slosher' },
-		5040: { ja: 'エクスプロッシャー', en: 'Explosher', type: 'slosher' },
+		5000: { ja: 'バケットスロッシャー', en: 'Slosher', type: 'slosher', bottom: 6 },
+		5010: { ja: 'ヒッセン', en: 'Tri-Slosher', type: 'slosher', bottom: 6 },
+		5020: { ja: 'スクリュースロッシャー', en: 'Sloshing Machine', type: 'slosher', bottom: 11 },
+		5030: { ja: 'オーバーフロッシャー', en: 'Bloblobber', type: 'slosher', bottom: 28 },
+		5040: { ja: 'エクスプロッシャー', en: 'Explosher', type: 'slosher', bottom: 22 },
 
-		6000: { ja: 'スプラスピナー', en: 'Mini Splatling', type: 'splatling' },
-		6010: { ja: 'バレルスピナー', en: 'Heavy Splatling', type: 'splatling' },
-		6020: { ja: 'ハイドラント', en: 'Hydra Splatling', type: 'splatling' },
-		6030: { ja: 'クーゲルシュライバー', en: 'Ballpoint Splatling', type: 'splatling' },
-		6040: { ja: 'ノーチラス47', en: 'Nautilus 47', type: 'splatling' },
+		6000: { ja: 'スプラスピナー', en: 'Mini Splatling', type: 'splatling', bottom: 44 },
+		6010: { ja: 'バレルスピナー', en: 'Heavy Splatling', type: 'splatling', bottom: 42 },
+		6020: { ja: 'ハイドラント', en: 'Hydra Splatling', type: 'splatling', bottom: 27 },
+		6030: { ja: 'クーゲルシュライバー', en: 'Ballpoint Splatling', type: 'splatling', bottom: 51 },
+		6040: { ja: 'ノーチラス47', en: 'Nautilus 47', type: 'splatling', bottom: 42 },
 
-		7000: { ja: 'スパッタリー', en: 'Dapple Dualies', type: 'dualies' },
-		7010: { ja: 'スプラマニューバー', en: 'Splat Dualies', type: 'dualies' },
-		7020: { ja: 'デュアルスイーパー', en: 'Dualie Squelchers', type: 'dualies' },
-		7030: { ja: 'ケルビン525', en: 'Glooga Dualies', type: 'dualies' },
-		7040: { ja: 'クアッドホッパーブラック', en: 'Dark Tetra Dualies', type: 'dualies' },
+		7000: { ja: 'スパッタリー', en: 'Dapple Dualies', type: 'dualies', bottom: 22 },
+		7010: { ja: 'スプラマニューバー', en: 'Splat Dualies', type: 'dualies', bottom: 7 },
+		7020: { ja: 'デュアルスイーパー', en: 'Dualie Squelchers', type: 'dualies', bottom: 30 },
+		7030: { ja: 'ケルビン525', en: 'Glooga Dualies', type: 'dualies', bottom: 15 },
+		7040: { ja: 'クアッドホッパーブラック', en: 'Dark Tetra Dualies', type: 'dualies', bottom: 7 },
 
-		8000: { ja: 'パラシェルター', en: 'Splat Brella', type: 'brella' },
-		8010: { ja: 'キャンピングシェルター', en: 'Tenta Brella', type: 'brella' },
-		8020: { ja: 'スパイガジェット', en: 'Undercover Brella', type: 'brella' },
+		8000: { ja: 'パラシェルター', en: 'Splat Brella', type: 'brella', bottom: 32 },
+		8010: { ja: 'キャンピングシェルター', en: 'Tenta Brella', type: 'brella', bottom: 4 },
+		8020: { ja: 'スパイガジェット', en: 'Undercover Brella', type: 'brella', bottom: 27 },
 
-		9000: { ja: 'トライストリンガー', en: 'Tri-Stringer', type: 'stringer' },
-		9010: { ja: 'LACT-450', en: 'REEF-LUX 450', type: 'stringer' },
+		9000: { ja: 'トライストリンガー', en: 'Tri-Stringer', type: 'stringer', bottom: 1 },
+		9010: { ja: 'LACT-450', en: 'REEF-LUX 450', type: 'stringer', bottom: 15 },
 
-		10000: { ja: 'ドライブワイパー', en: 'Splatana Wiper', type: 'wiper' },
-		10010: { ja: 'ジムワイパー', en: 'Splatana Stamper', type: 'wiper' },
+		10000: { ja: 'ドライブワイパー', en: 'Splatana Wiper', type: 'wiper', bottom: 4 },
+		10010: { ja: 'ジムワイパー', en: 'Splatana Stamper', type: 'wiper', bottom: 5 },
 
-		20000: { ja: 'クマサン印のブラスター', en: 'Grizzco Blaster', type: 'grizzco' },
-		20010: { ja: 'クマサン印のシェルター', en: 'Grizzco Brella', type: 'grizzco' },
-		20020: { ja: 'クマサン印のチャージャー', en: 'Grizzco Charger', type: 'grizzco' },
-		20030: { ja: 'クマサン印のスロッシャー', en: 'Grizzco Slosher', type: 'grizzco' },
-		20040: { ja: 'クマサン印のストリンガー', en: 'Grizzco Stringer', type: 'grizzco' }
+		20000: { ja: 'クマサン印のブラスター', en: 'Grizzco Blaster', type: 'grizzco', bottom: 58 },
+		20010: { ja: 'クマサン印のシェルター', en: 'Grizzco Brella', type: 'grizzco', bottom: 12 },
+		20020: { ja: 'クマサン印のチャージャー', en: 'Grizzco Charger', type: 'grizzco', bottom: 50 },
+		20030: { ja: 'クマサン印のスロッシャー', en: 'Grizzco Slosher', type: 'grizzco', bottom: 6 },
+		20040: { ja: 'クマサン印のストリンガー', en: 'Grizzco Stringer', type: 'grizzco', bottom: 3 }
 };
 
 	/** ブキID配列 */
@@ -370,7 +370,7 @@
 	 */
 	const getWeaponSize = () => {
 		const windowWidth = getWindowWidth();
-		return Math.max(30, Math.min(90, Math.floor(windowWidth / 12)));
+		return Math.max(30, Math.min(95, Math.floor(windowWidth / 12)));
 	};
 
 	/** resizeWeapons()
@@ -380,7 +380,7 @@
 		const weaponSize = getWeaponSize();
 		const scale = weaponSize / defaultWeaponSize;
 		const marginTB = Math.min(15, 20 * scale);
-		const marginLR = Math.min(15, 50 * scale);
+		const marginLR = Math.min(15, 40 * scale);
 		const weaponWidth = weaponSize + marginLR * 2;
 		const wrapperWidth = document.getElementById('h1').getBoundingClientRect().width;
 		const columnNum = Math.floor(wrapperWidth / weaponWidth);
@@ -398,8 +398,8 @@
 			imageElm.style.setProperty('width', `${weaponSize}px`);
 			imageElm.style.setProperty('height', `${weaponSize}px`);
 			imageElm.style.setProperty('background-size', `${weaponSize}px ${weaponSize}px`);
-			// imageElm.style.setProperty('background-position-y',
-			// 	`${weapons[id].bottom * scale}px`);
+			imageElm.style.setProperty('background-position-y',
+				`${weapons[id].bottom * scale}px`);
 		});
 	};
 
@@ -446,7 +446,7 @@
 		// ボタンを追加する
 		const wrapperElm = document.getElementById('weapons-wrapper');
 		weaponIds.forEach((id) => {
-			const src = `${weaponsDirectory + id}.png`;
+			const src = `${weaponsDirectory + id}.png?0`;
 			const weaponElm = document.createElement('div');
 			weaponElm.setAttribute('title', `${weapons[id][lang]}`);
 			weaponElm.setAttribute('id', `weapon-${id}`);
@@ -523,7 +523,7 @@
 		for (let i = 0; i < array.length; i += 1) {
 			if (array[i].count > 0) {
 				console.log(array[i]);
-				const src = `${weaponsDirectory + array[i].id}.png`;
+				const src = `${weaponsDirectory + array[i].id}.png?0`;
 				html += '<tr>';
 				html += `<td><img src="${src}">${weapons[array[i].id][lang]}</td>`
 				html += `<td>${array[i].count}</td>`

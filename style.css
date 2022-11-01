@@ -186,11 +186,11 @@ select {
 		background-repeat: no-repeat;
 		border: none;
 		cursor: pointer;
-		/* -webkit-box-reflect: below 2px -webkit-gradient(linear, 0 0, 0 100%,
+		-webkit-box-reflect: below 2px -webkit-gradient(linear, 0 0, 0 100%,
 			from(transparent),
 			color-stop(0.7, transparent),
 			to(rgba(0, 0, 0, 0.4))
-		); */
+		);
 		user-select: none;
 	}
 	.weapon-image:after {
@@ -201,7 +201,7 @@ select {
 		left: 5%;
 		width: 100%;
 		height: 100%;
-		/* background-image: url('https://gungeespla.github.io/salmon_learn/data/weapons_big/shadow.png'); */
+		background-image: url('weapon/shadow.png');
 		background-size: 90%;
 		background-repeat: no-repeat;
 	}
