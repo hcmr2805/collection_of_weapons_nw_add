@@ -59,6 +59,8 @@
 		110: { ja: 'H3リールガン', en: 'H-3 Nozzlenose', type: 'shooter', bottom: 42 },
 		120: { ja: 'ボトルガイザー', en: 'Squeezer', type: 'shooter', bottom: 41 },
 
+		150: { ja: 'スペースシューター', en: 'Splattershot Nova', type: 'shooter', bottom: 44 },
+
 		1000: { ja: 'ノヴァブラスター', en: 'Luna Blaster', type: 'blaster', bottom: 19 },
 		1010: { ja: 'ホットブラスター', en: 'Blaster', type: 'blaster', bottom: 46 },
 		1020: { ja: 'ロングブラスター', en: 'Range Blaster', type: 'blaster', bottom: 50 },
@@ -70,6 +72,7 @@
 		2010: { ja: 'スプラローラー', en: 'Splat Roller', type: 'roller', bottom: 19 },
 		2020: { ja: 'ヴァリアブルローラー', en: 'Flingza Roller', type: 'roller', bottom: 15 },
 		2030: { ja: 'ダイナモローラー', en: 'Dynamo Roller', type: 'roller', bottom: 4 },
+		2040: { ja: 'ワイドローラー', en: 'Big Swig Roller', type: 'roller', bottom: 21 },
 
 		3000: { ja: 'パブロ', en: 'Inkbrush', type: 'roller', bottom: 4 },
 		3010: { ja: 'ホクサイ', en: 'Octobrush', type: 'roller', bottom: 2 },
@@ -79,6 +82,7 @@
 		4030: { ja: 'リッター4K', en: 'E-liter 4K', type: 'charger', bottom: 65 },
 		4050: { ja: 'ソイチューバー', en: 'Goo Tuber', type: 'charger', bottom: 33 },
 		4060: { ja: '14式竹筒銃・甲', en: 'Bamboozler 14 Mk I', type: 'charger', bottom: 47 },
+		4070: { ja: 'R-PEN/5H', en: 'Snipewriter 5H', type: 'charger', bottom: 64 },
 
 		5000: { ja: 'バケットスロッシャー', en: 'Slosher', type: 'slosher', bottom: 6 },
 		5010: { ja: 'ヒッセン', en: 'Tri-Slosher', type: 'slosher', bottom: 6 },
@@ -86,7 +90,7 @@
 		5030: { ja: 'オーバーフロッシャー', en: 'Bloblobber', type: 'slosher', bottom: 28 },
 		5040: { ja: 'エクスプロッシャー', en: 'Explosher', type: 'slosher', bottom: 22 },
 
-		6000: { ja: 'スプラスピナー', en: 'Mini Splatling', type: 'splatling', bottom: 44 },
+		6000: { ja: 'スプラスピナー', en: 'Mini Splatling', type: 'splatling', bottom: 43 },
 		6010: { ja: 'バレルスピナー', en: 'Heavy Splatling', type: 'splatling', bottom: 42 },
 		6020: { ja: 'ハイドラント', en: 'Hydra Splatling', type: 'splatling', bottom: 27 },
 		6030: { ja: 'クーゲルシュライバー', en: 'Ballpoint Splatling', type: 'splatling', bottom: 51 },
@@ -112,7 +116,8 @@
 		20010: { ja: 'クマサン印のシェルター', en: 'Grizzco Brella', type: 'grizzco', bottom: 12 },
 		20020: { ja: 'クマサン印のチャージャー', en: 'Grizzco Charger', type: 'grizzco', bottom: 50 },
 		20030: { ja: 'クマサン印のスロッシャー', en: 'Grizzco Slosher', type: 'grizzco', bottom: 6 },
-		20040: { ja: 'クマサン印のストリンガー', en: 'Grizzco Stringer', type: 'grizzco', bottom: 3 }
+		20040: { ja: 'クマサン印のストリンガー', en: 'Grizzco Stringer', type: 'grizzco', bottom: 3 },
+		20050: { ja: 'クマサン印のワイパー', en: 'Grizzco Splatana', type: 'grizzco', bottom: 13 },
 };
 
 	/** ブキID配列 */
