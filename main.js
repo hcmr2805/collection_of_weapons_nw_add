@@ -67,6 +67,7 @@
 		1030: { ja: 'クラッシュブラスター', en: 'Clash Blaster', type: 'blaster', bottom: 30 },
 		1040: { ja: 'ラピッドブラスター', en: 'Rapid Blaster', type: 'blaster', bottom: 32 },
 		1050: { ja: 'Rブラスターエリート', en: 'Rapid Blaster Pro', type: 'blaster', bottom: 42 },
+		1060: { ja: 'S-BLAST92', en: "S-BLAST '92", type: 'blaster', bottom: 47 },
 
 		2000: { ja: 'カーボンローラー', en: 'Carbon Roller', type: 'roller', bottom: 15 },
 		2010: { ja: 'スプラローラー', en: 'Splat Roller', type: 'roller', bottom: 19 },
@@ -76,6 +77,7 @@
 
 		3000: { ja: 'パブロ', en: 'Inkbrush', type: 'roller', bottom: 4 },
 		3010: { ja: 'ホクサイ', en: 'Octobrush', type: 'roller', bottom: 2 },
+		3020: { ja: 'フィンセント', en: 'Painbrush', type: 'roller', bottom: 2 },
 
 		4000: { ja: 'スクイックリンα', en: 'Classic Squiffer', type: 'charger', bottom: 58 },
 		4010: { ja: 'スプラチャージャー', en: 'Splat Charger', type: 'charger', bottom: 64 },
@@ -112,10 +114,10 @@
 		10000: { ja: 'ジムワイパー', en: 'Splatana Stamper', type: 'wiper', bottom: 4 },
 		10010: { ja: 'ドライブワイパー', en: 'Splatana Wiper', type: 'wiper', bottom: 5 },
 
-		20000: { ja: 'クマサン印のブラスター', en: 'Grizzco Blaster', type: 'grizzco', bottom: 58 },
-		20010: { ja: 'クマサン印のシェルター', en: 'Grizzco Brella', type: 'grizzco', bottom: 12 },
-		20020: { ja: 'クマサン印のチャージャー', en: 'Grizzco Charger', type: 'grizzco', bottom: 50 },
-		20030: { ja: 'クマサン印のスロッシャー', en: 'Grizzco Slosher', type: 'grizzco', bottom: 6 },
+		20000: { ja: 'クマサン印のブラスター', en: 'Grizzco Blaster', type: 'grizzco', bottom: 55 },
+		20010: { ja: 'クマサン印のシェルター', en: 'Grizzco Brella', type: 'grizzco', bottom: 42 },
+		20020: { ja: 'クマサン印のチャージャー', en: 'Grizzco Charger', type: 'grizzco', bottom: 45 },
+		20030: { ja: 'クマサン印のスロッシャー', en: 'Grizzco Slosher', type: 'grizzco', bottom: 25 },
 		20040: { ja: 'クマサン印のストリンガー', en: 'Grizzco Stringer', type: 'grizzco', bottom: 3 },
 		20050: { ja: 'クマサン印のワイパー', en: 'Grizzco Splatana', type: 'grizzco', bottom: 13 },
 };
