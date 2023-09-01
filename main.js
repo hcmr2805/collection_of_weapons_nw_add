@@ -91,12 +91,14 @@
 		5020: { ja: 'スクリュースロッシャー', en: 'Sloshing Machine', type: 'slosher', bottom: 11 },
 		5030: { ja: 'オーバーフロッシャー', en: 'Bloblobber', type: 'slosher', bottom: 28 },
 		5040: { ja: 'エクスプロッシャー', en: 'Explosher', type: 'slosher', bottom: 22 },
+		5050: { ja: "モップリン", en: "Dread Wringer", type: "slosher", bottom: 19 },
 
 		6000: { ja: 'スプラスピナー', en: 'Mini Splatling', type: 'splatling', bottom: 43 },
 		6010: { ja: 'バレルスピナー', en: 'Heavy Splatling', type: 'splatling', bottom: 42 },
 		6020: { ja: 'ハイドラント', en: 'Hydra Splatling', type: 'splatling', bottom: 27 },
 		6030: { ja: 'クーゲルシュライバー', en: 'Ballpoint Splatling', type: 'splatling', bottom: 51 },
 		6040: { ja: 'ノーチラス47', en: 'Nautilus 47', type: 'splatling', bottom: 42 },
+		6050: { ja: "イグザミナー", en: "Heavy Edit Splatling", type: "splatling", bottom: 47 },
 
 		7000: { ja: 'スパッタリー', en: 'Dapple Dualies', type: 'dualies', bottom: 22 },
 		7010: { ja: 'スプラマニューバー', en: 'Splat Dualies', type: 'dualies', bottom: 7 },
@@ -120,6 +122,7 @@
 		20030: { ja: 'クマサン印のスロッシャー', en: 'Grizzco Slosher', type: 'grizzco', bottom: 25 },
 		20040: { ja: 'クマサン印のストリンガー', en: 'Grizzco Stringer', type: 'grizzco', bottom: 3 },
 		20050: { ja: 'クマサン印のワイパー', en: 'Grizzco Splatana', type: 'grizzco', bottom: 13 },
+		20060: { ja: "クマサン印のマニューバー", en: "Grizzco Dualies", type: "grizzco", bottom: 15 },
 };
 
 	/** ブキID配列 */
