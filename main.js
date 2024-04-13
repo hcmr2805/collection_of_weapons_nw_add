@@ -105,10 +105,12 @@
 		7020: { ja: 'デュアルスイーパー', en: 'Dualie Squelchers', type: 'dualies', bottom: 30 },
 		7030: { ja: 'ケルビン525', en: 'Glooga Dualies', type: 'dualies', bottom: 15 },
 		7040: { ja: 'クアッドホッパーブラック', en: 'Dark Tetra Dualies', type: 'dualies', bottom: 7 },
+		7050: { ja: 'ガエンFF', en: 'Douser Dualies', type: 'dualies', bottom: 7 },
 
 		8000: { ja: 'パラシェルター', en: 'Splat Brella', type: 'brella', bottom: 32 },
 		8010: { ja: 'キャンピングシェルター', en: 'Tenta Brella', type: 'brella', bottom: 4 },
 		8020: { ja: 'スパイガジェット', en: 'Undercover Brella', type: 'brella', bottom: 27 },
+		8030: { ja: '24式張替傘・甲', en: 'Recycled Brella 24 Mk I', type: 'brella', bottom: 27 },
 
 		9000: { ja: 'トライストリンガー', en: 'Tri-Stringer', type: 'stringer', bottom: 1 },
 		9010: { ja: 'LACT-450', en: 'REEF-LUX 450', type: 'stringer', bottom: 15 },
