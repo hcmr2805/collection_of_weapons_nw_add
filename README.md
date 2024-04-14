@@ -23,6 +23,6 @@
 
 ## 作者
 
-[GungeeSpla](https://github.com/GungeeSpla) ([Twitter](https://twitter.com/GungeeSpla))
-[takenokotoon](https://github.com/takenokotoon) ([Twitter](https://twitter.com/takenokotoon))
+[GungeeSpla](https://github.com/GungeeSpla) ([Twitter](https://twitter.com/GungeeSpla)), 
+[takenokotoon](https://github.com/takenokotoon) ([Twitter](https://twitter.com/takenokotoon)), 
 [hcmr2805](https://github.com/hcmr2805) ([Twitter](https://twitter.com/hcmr2805))
