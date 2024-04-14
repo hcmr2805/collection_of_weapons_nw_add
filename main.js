@@ -1,4 +1,4 @@
-(() => {
+﻿(() => {
 	/** メッセージ */
 	const messages = {
 		'confirm-clear': {
