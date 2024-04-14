@@ -15,7 +15,7 @@
 ## 閲覧
 
 以下のURLから閲覧できます。  
-[https://takenocotoon.github.io/collection_of_weapons_nw/](https://takenocotoon.github.io/collection_of_weapons_nw/)
+[https://hcmr2805.github.io/collection_of_weapons_nw_add/](https://hcmr2805.github.io/collection_of_weapons_nw_add/)
 
 ## ライセンス
 
@@ -24,3 +24,5 @@
 ## 作者
 
 [GungeeSpla](https://github.com/GungeeSpla) ([Twitter](https://twitter.com/GungeeSpla))
+[takenokotoon](https://github.com/takenokotoon) ([Twitter](https://twitter.com/takenokotoon))
+[hcmr2805](https://github.com/hcmr2805) ([Twitter](https://twitter.com/hcmr2805))
