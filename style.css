@@ -326,5 +326,8 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	text-decoration: underline;
+	color: #f60;
+}
+a:active {
+	color: #f30;	
 }
