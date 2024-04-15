@@ -1,4 +1,4 @@
-/** @font-face */
+﻿/** @font-face */
 @font-face {
 font-family: Splatoon1;
 src:
@@ -125,7 +125,7 @@ select {
 }
 /** #weapons-wrapper */
 #weapons-wrapper {
-	margin-top: 100px;
+	margin-top: 80px;
 }
 /** .weapon-container */
 .weapon-container {
@@ -323,5 +323,8 @@ body.theme-dark #statistics-wrapper {
 }
 a {
 	color: #999;
-  text-decoration: none;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
