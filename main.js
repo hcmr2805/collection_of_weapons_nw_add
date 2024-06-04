@@ -114,9 +114,11 @@
 
 		9000: { ja: 'トライストリンガー', en: 'Tri-Stringer', type: 'stringer', bottom: 1 },
 		9010: { ja: 'LACT-450', en: 'REEF-LUX 450', type: 'stringer', bottom: 15 },
+		9020: { ja: 'フルイドV', en: 'Wellstring V', type: 'stringer', bottom: 7 },
 
 		10000: { ja: 'ジムワイパー', en: 'Splatana Stamper', type: 'wiper', bottom: 4 },
 		10010: { ja: 'ドライブワイパー', en: 'Splatana Wiper', type: 'wiper', bottom: 5 },
+		10020: { ja: 'デンタルワイパーミント', en: 'Mint Decavitator', type: 'wiper', bottom: 15 },
 
 		20000: { ja: 'クマサン印のブラスター', en: 'Grizzco Blaster', type: 'grizzco', bottom: 55 },
 		20010: { ja: 'クマサン印のシェルター', en: 'Grizzco Brella', type: 'grizzco', bottom: 42 },
