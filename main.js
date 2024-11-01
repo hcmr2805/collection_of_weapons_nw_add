@@ -127,6 +127,7 @@
 		20040: { ja: 'クマサン印のストリンガー', en: 'Grizzco Stringer', type: 'grizzco', bottom: 3 },
 		20050: { ja: 'クマサン印のワイパー', en: 'Grizzco Splatana', type: 'grizzco', bottom: 13 },
 		20060: { ja: "クマサン印のマニューバー", en: "Grizzco Dualies", type: "grizzco", bottom: 15 },
+	 	20070: { ja: "クマサン印のローラー", en: "Grizzco Roller", type: "grizzco", bottom: 15 },
 };
 
 	/** ブキID配列 */
